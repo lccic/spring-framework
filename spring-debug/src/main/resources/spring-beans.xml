@@ -10,4 +10,6 @@
 		<property name="name" value="lcc" />
 	</bean>
 
+	<bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" />
+
 </beans>

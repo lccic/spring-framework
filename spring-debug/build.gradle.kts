@@ -14,6 +14,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 	compile(project(":spring-core"))
 	optional(project(":spring-aop"))
+	optional("org.aspectj:aspectjweaver")
 	optional(project(":spring-beans"))
 	optional(project(":spring-context"))
 }
